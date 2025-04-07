@@ -29,13 +29,6 @@ Welcome to **Gemma-Bench** — a reproducible, extensible, and automated benchma
 🚧 Leaderboard generation (coming soon)  
 🚧 Web UI / dashboard (optional)  
 
----
-
-## 📁 Project Structure (Early Version)
-
-```
-gemma-bench/ │ ├── benchmarks/ │ ├── run_mmlu.py │ ├── run_gsm8k.py │ └── utils.py │ ├── configs/ │ └── models.yaml # Model definitions (Gemma, LLaMA, Mistral) │ ├── results/ │ └── sample_mmlu.json │ ├── viz/ │ └── generate_charts.ipynb │ ├── Dockerfile ├── requirements.txt └── README.md
-```
 
 ---
 
@@ -59,11 +52,9 @@ cd gemma-bench
 pip install -r requirements.txt
 
 # Run MMLU benchmark for Gemma 2B
-python benchmarks/run_mmlu.py --model gemma-2b
+python run_mmlu.py --model gemma-2b
 
-# Visualize results
-jupyter notebook viz/generate_charts.ipynb
-📚 Datasets Used
+# Datasets
 MMLU
 
 GSM8K
