@@ -1,4 +1,3 @@
-# benchmarking
 
 # 🔍 Gemma-Bench: A Benchmarking Suite for Evaluating Gemma and Other Open LLMs
 
@@ -7,6 +6,9 @@ Welcome to **Gemma-Bench** — a reproducible, extensible, and automated benchma
 > 🧪 This is a proof-of-concept for a full-scale GSoC 2025 project proposal. Contributions, feedback, and ideas are welcome!
 
 ---
+
+# Dashboard
+![alt text](dashboard_image.png)
 
 ## 🚀 Goals
 
@@ -26,8 +28,8 @@ Welcome to **Gemma-Bench** — a reproducible, extensible, and automated benchma
 ✅ Clean output format (JSON/CSV)  
 ✅ Visualization via Matplotlib/Plotly  
 ✅ Modular dataset and model registration  
-🚧 Leaderboard generation (coming soon)  
-🚧 Web UI / dashboard (optional)  
+🚧 Leaderboard generation  
+🚧 Web UI / dashboard
 
 
 ---
@@ -53,15 +55,13 @@ pip install -r requirements.txt
 
 # Run MMLU benchmark for Gemma 2B
 python run_mmlu.py --model gemma-2b
+```
 
 # Datasets
-MMLU
-
-GSM8K
-
-ARC
-
-HellaSwag
+1. MMLU
+2. GSM8K 
+3. ARC
+4. HellaSwag
 
 Custom QA Evaluation (WIP)
 
@@ -87,7 +87,7 @@ Contribute back to the Gemma ecosystem.
 
 Help LLM researchers and developers compare models with confidence.
 
-🙋‍♂️ About Me
+🙋‍♂️About Me
 I'm Shikhar, an MS student in IT & Analytics with 6+ years of industry experience as a Software Developer at Walmart. I've built LLM-based QA agents for enterprise use, and I'm passionate about bridging research and engineering in the LLM space.
 
 Feel free to connect or collaborate!
